@@ -41,5 +41,7 @@ public class PasswordGenerator {
             + year + ","
             + "il cui colore preferito è il " + colore + " La sua password sarà " + primoNome + "-" + cognome + "-" +
             (day + month + year));
+
+    input.close();
   }
 }
